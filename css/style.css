@@ -1,0 +1,7 @@
+html {
+    scrollbar-gutter: stable;
+}
+
+.btn.btn-primary {
+    background-color: darkblue;
+}

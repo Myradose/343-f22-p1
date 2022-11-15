@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        body {
+          padding-top: 56px;
+        }
+        .sidebar {
+            max-width: 800px;
+        }
+        a {
+            color: #004794
+        }
+        h1 {
+          font-size: calc(1.3em + 1.5vw)
+        }
+        h2 {
+          font-size: calc(0.75em + 1.5vw)
+        }
+        h3 {
+          font-size: calc(0.5em + 1.5vw)
+        }
+        .my_container {
+          padding-left: 10px;
+          padding-right: 10px;
+          width: 90%;
+        }
+        @media screen and (max-width: 700px) {
+        .sidebar {
+          display: none;
+        }
+      }
+    </style>
+    <title>Exam Problem 3</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body>
-  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./setup.html">Setup<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./lesson_plan.html">Lesson Plan</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./resourses.html">Resources</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./contacts.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="my_container">
+        <div class="row">
+            <div class="sidebar">
+                <div class="col">
+                    <h2>Contents</h2>
+                    <ul>
+                        <li>
+                          <a href="#what">What is this guide?</a>
+                        </li>
+                        <li>
+                          <a href="#money">Does anything cost money?</a>
+                        </li>
+                        <li>
+                          <a href="#pacing">How should I pace myself?</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+          <div class="col">
+            <header>
+              <p class="h1">Ultimate Self-Study Japanese Learning Guide</p>
+            </header>
+            <p class="h2" id="what">What is this guide?</p>
+            <p>This is a compilation of everything I wish I knew when I tried to learn Japanese a while back. Many of the resources in this guide are <b>very new</b> and won’t be included in similar guides online. One of the best aspects of this guide is that just about every resource shown in this guide is centered around the <b>Genki textbooks</b> so there isn’t any study overlap.</p>
+            <p>In this guide there are resources included for <b>multiple learning styles</b> ranging from <b>very textual</b> to <b>very visual</b>. In my personal experience, the more visual/classroom-like experience you go, the better your understanding of application will be, but I wouldn’t go overboard watching every supplementary visual material I offer here.</p>
+            <p class="h2" id="money">Does anything cost money?</p>
+            <p>Technically yes, but most are free. You can buy the Genki textbooks or be a sneaky pirate and get them for free. I’m definitely not going to stop you. I’ve heard that there’s a website called libgen that has amazing 100% discounts on pdfs of the Genki textbooks, Genki workbooks and any other academic textbook you may need but I wouldn’t know for sure because I definitely haven’t used it before. ;)</p>
+            <!-- <h3>How do I self-study?</h3>
+            <p>Everything with links in this section is explained in the self-study resources section. Please read them before you start. There is also a LESSON PLAN that may be more helpful than this block of text at the bottom of the document! This is just an overview and how the process works.</p>
+            <p>This is very subjective but here is how I would approach this. Before even opening the Genki book, learn hiragana through realkana everyday until you can read every hiragana right and write them with Ringotan. Now you can start reading the Genki 1 book and working through lesson 0. This is when you can start doing the Genki 1 vocabulary Anki deck daily. Base your “correctness”  by how much you have to think before identifying the English word from the Japanese audio and how much you have to think before you can correctly speak the Japanese word given an English word. This is also when you can watch the corresponding videos of one of the three main grammar video series: official Genki grammar videos, unofficial Genki grammar youtube series, or learn Japanese with a cat!. As you read the textbook, listen to the official Genki audio if needed. Work through the online Genki practice and exercises until you feel comfortable with each of the concepts. Watch the culture videos when you get to the culture notes sections (optional). Watch the dialogue videos at the end of the lessons (optional). Utilize any additional resources mentioned as needed. This sequence of resources is generally how you should approach each lesson that follows. Before starting lesson 1 you should be much faster at hiragana and you should be able to read every katakana correctly through realkana and write them with Ringotan. Before starting lesson 2, you should be able to read hiragana and katakana very quickly. You should barely have to think about it while you are reading them.  I also recommend roughly knowing the lesson 3 kanji through Ringotan. The rest of the lessons follow the same pattern. Even after you feel like you know all of the hiragana, katakana, and even special hiragana and katakana, I still highly recommend continuing to practice all of these every day for a long while until you truly feel like you don’t have to think at all about them anymore. I can’t stress how much being very proficient in these alphabets can dramatically speed up the learning process. If you haven’t already noticed a pattern, I highly recommend you stay a minimum of one lesson ahead in terms of vocabulary in kanji when reading each lesson. This allows you to quickly read words from a new lesson right off of the bat without constantly referring back to the vocabulary page and focus more on learning the grammatical concepts that are introduced. The videos for each lesson usually use vocabulary from the lesson which can make them difficult to watch if you don’t know the words they are using for examples.</p> -->
+            <p class="h3" id="pacing">How should I pace myself?</p>
+            <p>Ultimately that is up to you since this is self-study, however, I <b>HIGHLY recommend</b> you do <a href="https://realkana.com">realkana</a> and the Anki decks every day if possible. Once you start lesson 2 or 3 (depending on whether you want to stay ahead), I would start working through <a href="https://www.wanikani.com/">WaniKani</a>. While doing WaniKani, start writing the corresponding <a href="https://play.google.com/store/apps/details?id=com.Ringotan&hl=en_US&gl=US">Ringotan</a> kanji. It is always okay to get ahead (I even recommend it) on Anki vocabulary/kanji since it makes future lessons and videos easier, but if you want to do everything side by side, set your deck to have no new cards once you finish whatever lesson you are on so you are at least reviewing and putting your learned cards in long term memory every day.</p>
+          </div>
+        </div>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
